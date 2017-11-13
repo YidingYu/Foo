@@ -8,6 +8,7 @@ Thanks for this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-G
 
 2. Download CUDNN from https://developer.nvidia.com/cudnn
 
+<div align=center>
 ![cuDNN download](http://upload-images.jianshu.io/upload_images/1868025-6a41218b9534589c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 
 3. Download GTX1080Ti driver from http://www.nvidia.com/Download/index.aspx
@@ -22,12 +23,12 @@ $ sudo apt-get install build-essential
 ```
 $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 ```
-In *blacklist-nouveau.conf*， input (you may need to install **vim** first)
+    In *blacklist-nouveau.conf*， input (you may need to install **vim** first)
 ```
 blacklist nouveau
 options nouveau modeset=0
 ```
-Then,
+    Then,
 ```
 $ sudo update-initramfs -u
 ```
