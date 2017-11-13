@@ -4,11 +4,14 @@ Thanks for this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-G
 
 1. Download CUDA Tookit8.0 runfile (local) https://developer.nvidia.com/cuda-80-ga2-download-archive
 ![CUDA Tookit8.0](http://upload-images.jianshu.io/upload_images/1868025-7e0b84a51c2efae9.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
+
 2. Download CUDNN from https://developer.nvidia.com/cudnn
 ![cuDNN download](http://upload-images.jianshu.io/upload_images/1868025-6a41218b9534589c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
+
 3. Download GTX1080Ti driver from http://www.nvidia.com/Download/index.aspx
 
 ![GTX1080Ti driver](http://upload-images.jianshu.io/upload_images/1868025-6589de52abd79623.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
+
 4. Run: 
 ```
 $ sudo apt-get install build-essential
@@ -43,7 +46,7 @@ $ sudo apt-get remove --purge nvidia-*
 ```
 $ sudo ./NVIDIA-Linux-x86_64-378.13.run --no-opengl-files
 ```
-    Just continue through the installation **UNTILL IT ASKS YOU** 'Would you like to run the nvidia-xconfig utility...' Hit **NO** for this step.
+    Just continue through the installation **UNTILL IT ASKS YOU** "Would you like to run the nvidia-xconfig utility..." Hit **NO** for this step.
 11. Run:
 ```
 $ sudo ./cuda_8.0.61_375.26_linux.run --no-opengl-libs
