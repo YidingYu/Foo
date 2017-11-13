@@ -48,12 +48,12 @@ $ sudo apt-get remove --purge nvidia-*
 ```
 $ sudo ./NVIDIA-Linux-x86_64-378.13.run --no-opengl-files
 ```
-Just continue through the installation **UNTILL IT ASKS YOU** 'Would you like to run the nvidia-xconfig utility...' Hit **NO** for this step.
+    Just continue through the installation **UNTILL IT ASKS YOU** 'Would you like to run the nvidia-xconfig utility...' Hit **NO** for this step.
 11. Run:
 ```
 $ sudo ./cuda_8.0.61_375.26_linux.run --no-opengl-libs
 ```
-Following the options below
+    Following the options below
 ```
 Accept the EULA
 No to Install NVIDIA Accelerated Graphics Driver for Linux-x86_64
