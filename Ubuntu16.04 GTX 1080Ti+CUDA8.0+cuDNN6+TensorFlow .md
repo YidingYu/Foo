@@ -72,7 +72,7 @@ $ sudo modprobe nvidia
 ```
 $ sudo vim ~/.bashrc
 ```
-In the end of *.bashrc*, add
+    In the end of *.bashrc*, add
 ```
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
@@ -107,7 +107,9 @@ $ sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
 ```
 $ sudo apt-get install libcupti-dev
 ```
+
 Congratualations! All CUDA dependencies for Tensorflow should now be installed.
+
 ### Install TensorFlow r1.4 ###
 I used **"native" pip** method https://www.tensorflow.org/install/install_linux#InstallingNativePip and the python version is python3.5.
 
