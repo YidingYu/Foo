@@ -3,18 +3,23 @@
 Thanks for this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU
 
 1. Download CUDA Tookit8.0 runfile (local) https://developer.nvidia.com/cuda-80-ga2-download-archive
+
 <div align=center>
 ![CUDA Tookit8.0](http://upload-images.jianshu.io/upload_images/1868025-7e0b84a51c2efae9.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 </div>
+
 2. Download CUDNN from https://developer.nvidia.com/cudnn
 
 <div align=center>
 ![cuDNN download](http://upload-images.jianshu.io/upload_images/1868025-6a41218b9534589c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 </div>
+
 3. Download GTX1080Ti driver from http://www.nvidia.com/Download/index.aspx
+
 <div align=center>
 ![GTX1080Ti driver](http://upload-images.jianshu.io/upload_images/1868025-6589de52abd79623.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 </div>
+
 4. Run: 
 ```
 $ sudo apt-get install build-essential
