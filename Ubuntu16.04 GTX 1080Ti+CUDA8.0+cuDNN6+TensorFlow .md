@@ -1,6 +1,6 @@
 ### Install Ubuntu16.04 LTS version ###
 ### Install CUDA8.0 and cuDNN6 ###
-Thanks for this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU
+Thanks to this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU By Nicolai Ferraris.
 
 1. Download CUDA Tookit8.0 runfile (local) https://developer.nvidia.com/cuda-80-ga2-download-archive
 ![CUDA Tookit8.0](http://upload-images.jianshu.io/upload_images/1868025-7e0b84a51c2efae9.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
