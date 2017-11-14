@@ -20,12 +20,12 @@ $ sudo apt-get install build-essential
 ```
 $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 ```
-  In *blacklist-nouveau.conf*， input (you may need to install **vim** first)
+    In *blacklist-nouveau.conf*， input (you may need to install **vim** first)
 ```
 blacklist nouveau
 options nouveau modeset=0
 ```
-  Then,
+    Then,
 ```
 $ sudo update-initramfs -u
 ```
@@ -51,13 +51,13 @@ $ sudo apt-get remove --purge nvidia-*
 ```
 $ sudo ./NVIDIA-Linux-x86_64-378.13.run --no-opengl-files
 ```
-  Just continue through the installation **UNTILL IT ASKS YOU** "Would you like to run the nvidia-xconfig utility..." Hit **NO** for this step.
+    Just continue through the installation **UNTILL IT ASKS YOU** "Would you like to run the nvidia-xconfig utility..." Hit **NO** for this step.
   
 11. Run:
 ```
 $ sudo ./cuda_8.0.61_375.26_linux.run --no-opengl-libs
 ```
-  Following the options below
+    Following the options below
 ```
 Accept the EULA
 No to Install NVIDIA Accelerated Graphics Driver for Linux-x86_64
