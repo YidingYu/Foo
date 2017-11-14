@@ -9,7 +9,6 @@ Thanks to this link: https://github.com/nicolaifsf/Installing-Tensorflow-with-GP
 ![cuDNN download](http://upload-images.jianshu.io/upload_images/1868025-6a41218b9534589c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 
 3. Download GTX1080Ti driver from http://www.nvidia.com/Download/index.aspx
-
 ![GTX1080Ti driver](http://upload-images.jianshu.io/upload_images/1868025-6589de52abd79623.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/480)
 
 4. Run: 
