@@ -51,7 +51,7 @@ $ sudo apt-get remove --purge nvidia-*
 ```
 $ sudo ./NVIDIA-Linux-x86_64-378.13.run --no-opengl-files
 ```
-    Just continue through the installation UNTILL IT ASKS YOU "Would you like to run the nvidia-xconfig utility..." Hit **NO** for this step.
+    Just continue through the installation UNTILL IT ASKS YOU Would you like to run the nvidia-xconfig utility... Hit NO for this step.
   
 11. Run:
 ```
