@@ -99,7 +99,7 @@ $ make -j8
 16. Navigate to: *NVIDIA_CUDA-8.0_Samples/bin/x86_64/linux/release/* for the tests and run:
 ```
 $ ./deviceQuery
-$ ./deviceQuery
+$ ./bandwidthTest
 ```
 
 17. Reboot your computer
