@@ -125,3 +125,13 @@ Congratualations! All CUDA dependencies for Tensorflow should now be installed.
 ### Install TensorFlow r1.4 ###
 I used **"native" pip** method https://www.tensorflow.org/install/install_linux#InstallingNativePip and the python version is python3.5.
 
+
+### Install NVIDIA driver for GTX1080Ti
+```
+$ sudo add-apt-repository ppa:graphics-drivers/ppa
+$ sudo apt-get update
+$ sudo apt-get install nvidia-384
+```
+
+
+Enjoy!
