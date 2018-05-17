@@ -19,7 +19,7 @@ sudo apt-get install gdb valgrind
 ```
 5. GNU Scientific Library (GSL) support for more accurate WiFi error models
 ```
-sudo apt-get install gsl-bin libgsl2 libgsl2-dev
+sudo apt-get install gsl-bin libgsl2 libgsl-dev
 ```
 6. For flex lexical analyzer and bison parser generator
 ```
@@ -61,7 +61,7 @@ sudo apt-get install python-pygraphviz python-kiwi python-pygoocanvas libgoocanv
 ```
 15. For openflow module
 ```
-sudo apt-get install libboost-signals-dev libboost-filesytem-dev
+sudo apt-get install libboost-signals-dev libboost-filesystem-dev
 ```
 16. For MPI-based distribution emulation
 ```
@@ -102,7 +102,7 @@ constants.py dist.py* ns-3-dev/ pybindgen/ util.py
 ```
 cd ns-3-dev
 CXXFLAGS="-03" ./waf configure
-./waf -d optimized comnfigure
+./waf -d optimized configure
 ./waf -d debug configure
 ./waf
 ./waf --enable-examples configure
