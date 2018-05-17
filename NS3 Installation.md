@@ -1,6 +1,6 @@
 # Install NS3 on Ubuntu 16.04
 
-1. Install prequired compilers and additional packages
+1. Install required compilers and additional packages
 ```
 sudo apt-get install gcc g++ python3 python3-dev
 sudo apt-get install mercurial python3-setuptools git
@@ -9,7 +9,7 @@ sudo apt-get install mercurial python3-setuptools git
 ```
 sudo apt-get install qt4-dev-tools libqt4-dev
 ```
-3. Comlilation packages
+3. Compilation packages
 ```
 sudo apt-get install cmake libc6-dev libc6-dev-i386 g++-multilib
 ```
@@ -37,7 +37,7 @@ sudo apt-get install sqlite sqlite3 libsqlite3-dev
 ```
 sudo apt-get install libxml2 libxml2-dev
 ```
-10. For creating praphical user interface
+10. For creating graphical user interface
 ```
 sudo apt-get install libgtk2.0-0 libgtk2.0-dev
 ```
@@ -51,7 +51,7 @@ sudo apt-get install uncrustify
 ```
 13. For editting image and texlive for documentation
 ```
-sudo apt-get install doexgen graphviz imagemagic
+sudo apt-get install doxygen graphviz imagemagick
 sudo apt-get install texlive texlive-extra-utils texlive-latex-extra texlive-font-utils
 sudo apt-get install python-sphinx dia
 ```
@@ -103,7 +103,7 @@ constants.py dist.py* ns-3-dev/ pybindgen/ util.py
 cd ns-3-dev
 CXXFLAGS="-03" ./waf configure
 ./waf -d optimized comnfigure
-./waf -d debut configure
+./waf -d debug configure
 ./waf
 ./waf --enable-examples configure
 ./waf --enable-tests configure
