@@ -1,4 +1,4 @@
-1. 下载Matlab R2018a镜像文件及破解所需文件。链接：[百度网盘](百度网盘) 密码: qjag
+1. 下载Matlab R2018a镜像文件及破解所需文件。链接：[百度网盘](https://pan.baidu.com/s/1AbnGYJMiliwoYHGNydBsFA) 密码: qjag
 2. 进入下载后的文件夹，解压Matlab2018aLinux64Crack.tar.gz, 创建一个文件夹Crack来防止解压后的文件
 3. 挂载镜像。
 ```
