@@ -29,4 +29,4 @@ sudo cp license_standalone.lic /usr/loca/MATLAB/R2018a/licenses
 cd ~/Crack
 sudo cp -r R2018a /usr/local/MATLAB
 ```
-恭喜完成！Big thanks to [Ref1](NO.1) and [Ref2](https://blog.csdn.net/zzc15806/article/details/82313072)
+恭喜完成！Big thanks to [Ref1](NO.1) and [Ref2](https://blog.csdn.net/zzc15806/article/details/82313072).
